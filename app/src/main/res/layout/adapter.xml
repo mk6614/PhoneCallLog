@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/zgresen64"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            android:id="@+id/vrsta"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/st"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:text="041673638"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:background="@null"/>
+
+            <TextView
+                android:id="@+id/cas"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="10/08/2016"
+                android:textColor="#333333"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/izbrisi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            android:src="@drawable/izbrisi64"
+            android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/uredi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            android:src="@drawable/uredi64"
+            android:background="@null"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/opis"
+        android:textColor="#333333"
+        android:textSize="20sp"/>
+
+</LinearLayout>
